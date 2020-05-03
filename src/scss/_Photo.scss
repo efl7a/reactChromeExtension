@@ -6,6 +6,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--color-primary);
+  color: var(--color-grey-dark-1);
   padding: 1rem;
   /* border: 1px solid black; */
   border-radius: 2rem;
@@ -16,6 +17,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+.closeButton {
+  position: absolute;
+  text-decoration: none;
+  top: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+  color: var(--color-grey-dark-2);
+  background-color: inherit;
+  border: none;
 }
 .imgContainer {
   padding: 1rem;
