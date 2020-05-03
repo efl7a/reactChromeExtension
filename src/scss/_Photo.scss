@@ -1,0 +1,36 @@
+.popup {
+  height: 90vh;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-primary);
+  padding: 1rem;
+  /* border: 1px solid black; */
+  border-radius: 2rem;
+  box-shadow: var(--shadow-dark);
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.imgContainer {
+  padding: 1rem;
+  overflow: hidden;
+  // flex-grow: 1;
+}
+.photoInfo {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-decoration: none;
+  color: var(--color-grey-dark-1);
+}
+.motivationalImage {
+  max-width: 75%;
+  max-height: 100%;
+  padding: 2rem;
+  border-radius: 3rem;
+}
