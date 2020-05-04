@@ -1,5 +1,5 @@
 // Deleted Photos
-let deletedPhotos = [2608509, 6660, 2856025, 1228483];
+let deletedPhotos = [2608509, 6660, 2856025, 1228483, 2228571];
 
 const photos = [
         {
