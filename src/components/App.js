@@ -19,6 +19,7 @@ class App extends Component {
   }
 
   pageToRender = () => {
+    console.log("this.props.url is ", this.props.url)
     if (this.props.url.includes("index.html?query=popup")) {
       return <Popup />
     } else {

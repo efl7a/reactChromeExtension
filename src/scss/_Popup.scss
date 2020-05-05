@@ -1,5 +1,17 @@
 .iconPopup {
-  background-color: orange;
-  height: 150px;
-  width: 150px;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extensionIcon {
+  width: 7rem;
+  height: 5rem;
+}
+
+.userForm {
+  font-size: 1.5rem;
+  padding: 2rem;
 }
