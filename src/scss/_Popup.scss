@@ -14,7 +14,7 @@
 }
 
 .extensionIcon {
-  width: 5rem;
+  width: 6rem;
   height: 5rem;
   border-radius: 50%;
 }
@@ -22,6 +22,11 @@
 .userForm {
   font-size: 1.5rem;
   padding: 2rem;
+}
+
+.submitButton {
+  padding: .5rem;
+  font-family: inherit;
 }
 
 .colorSwatchContainer {

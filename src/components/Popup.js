@@ -12,22 +12,25 @@ class Popup extends Component {
     }
   }
 
-  updateCSS = (event) => {
+  updateCSS = () => {
     console.log('Trying to save settings ', this.state.userInput);
     chrome.storage.sync.set({'colorScheme': this.state.userInput}, function() {
           // Notify that we saved.
           console.log('Settings saved');
         });
-    event.preventDefault();
+    chrome.tabs.create({});
   }
 
   handleChange = (event) => {
     this.setState({userInput: event.target.value});
   }
+  handleInput = (hexCode) => {
+    this.setState({userInput: hexCode});
+  }
 
   displayFavorites = () => {
     const FAVORITES = ["#45a29e", "#E27D60", "#659DBD", "#2F2FA2", "#5D5C61", "#B1A296"];
-    return FAVORITES.map((code) => {return (<button className="colorSwatch" onClick={() => this.setState({userInput: code})} style={{backgroundColor: code}} key={code}>{code}</button>)});
+    return FAVORITES.map((code) => {return (<button className="colorSwatch" onClick={() => this.handleInput(code)} style={{backgroundColor: code}} key={code}>{code}</button>)});
   }
 
   render() {
@@ -48,6 +51,10 @@ class Popup extends Component {
               value={this.state.userInput}
               onChange={this.handleChange}
               placeholder="Input hex code"
+            />
+            <input
+              type="submit"
+              className="submitButton"
             />
           </form>
         </div>
