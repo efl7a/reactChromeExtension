@@ -26,8 +26,8 @@ class Popup extends Component {
   }
 
   displayFavorites = () => {
-    const favorites = ["#E27D60", "#659DBD", "#2F2FA2", "#5D5C61", "#B1A296"];
-  return favorites.map((code) => {return (<button className="colorSwatch" onClick={() => this.setState({userInput: code})} style={{backgroundColor: code}} key={code}>{code}</button>)});
+    const FAVORITES = ["#45a29e", "#E27D60", "#659DBD", "#2F2FA2", "#5D5C61", "#B1A296"];
+    return FAVORITES.map((code) => {return (<button className="colorSwatch" onClick={() => this.setState({userInput: code})} style={{backgroundColor: code}} key={code}>{code}</button>)});
   }
 
   render() {
