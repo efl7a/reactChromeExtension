@@ -25,25 +25,35 @@ class Popup extends Component {
     this.setState({userInput: event.target.value});
   }
 
+  displayFavorites = () => {
+    const favorites = ["#E27D60", "#659DBD", "#2F2FA2", "#5D5C61", "#B1A296"];
+  return favorites.map((code) => {return (<button className="colorSwatch" onClick={() => this.setState({userInput: code})} style={{backgroundColor: code}} key={code}>{code}</button>)});
+  }
+
   render() {
     return (
       <div className="iconPopup">
-        <img
-          className="extensionIcon"
-          alt="icon"
-          src={icon}
-        />
-        <form
-          className="userForm"
-          onSubmit={this.updateCSS}
-          >
-          <input
-            type="text"
-            value={this.state.userInput}
-            onChange={this.handleChange}
-            placeholder="Input hex code"
+        <div className="topBar">
+          <img
+            className="extensionIcon"
+            alt="icon"
+            src={icon}
           />
-        </form>
+          <form
+            className="userForm"
+            onSubmit={this.updateCSS}
+            >
+            <input
+              type="text"
+              value={this.state.userInput}
+              onChange={this.handleChange}
+              placeholder="Input hex code"
+            />
+          </form>
+        </div>
+        <div className="colorSwatchContainer">
+          {this.displayFavorites()}
+        </div>
       </div>
     );
   }

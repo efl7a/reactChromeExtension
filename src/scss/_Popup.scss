@@ -2,16 +2,35 @@
   padding: 1rem;
 
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBar {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .extensionIcon {
-  width: 7rem;
+  width: 5rem;
   height: 5rem;
+  border-radius: 50%;
 }
 
 .userForm {
   font-size: 1.5rem;
   padding: 2rem;
+}
+
+.colorSwatchContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colorSwatch {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 2rem;
 }
