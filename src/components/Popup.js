@@ -8,17 +8,28 @@ class Popup extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      userInput: ''
+      userInput: '',
+      error: ''
     }
   }
 
+  checkHexCode = (code) => {
+    console.log('checking ', code, /^#([0-9a-f]{3}){1,2}$/i.test(code));
+    let valid = /^#([0-9a-f]{3}){1,2}$/i.test(code) ? true:false
+    return valid;
+  }
+
   updateCSS = () => {
-    console.log('Trying to save settings ', this.state.userInput);
-    chrome.storage.sync.set({'colorScheme': this.state.userInput}, function() {
-          // Notify that we saved.
-          console.log('Settings saved');
-        });
-    chrome.tabs.create({});
+    if (this.checkHexCode(this.state.userInput)) {
+      chrome.storage.sync.set({'colorScheme': this.state.userInput}, function() {
+            // Notify that we saved.
+            console.log('Settings saved');
+          });
+      chrome.tabs.create({});
+    } else {
+      this.setState({error: 'Please add valid hex code.'})
+    }
+
   }
 
   handleChange = (event) => {
@@ -52,6 +63,7 @@ class Popup extends Component {
               onChange={this.handleChange}
               placeholder="Input hex code"
             />
+          <div>{this.state.error}</div>
             <input
               type="submit"
               className="submitButton"
