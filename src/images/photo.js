@@ -1563,6 +1563,26 @@ const photos = [
             "liked": false
         },
         {
+            "id": 636237,
+            "width": 4096,
+            "height": 2725,
+            "url": "https://www.pexels.com/photo/inspirational-quotes-written-on-a-planner-636237/",
+            "photographer": "Bich Tran",
+            "photographer_url": "https://www.pexels.com/@thngocbich",
+            "photographer_id": 195856,
+            "src": {
+                "original": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg",
+                "large2x": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
             "id": 3217672,
             "width": 5883,
             "height": 3914,
@@ -1583,26 +1603,47 @@ const photos = [
             "liked": false
         },
         {
-            "id": 636237,
-            "width": 4096,
-            "height": 2725,
-            "url": "https://www.pexels.com/photo/inspirational-quotes-written-on-a-planner-636237/",
-            "photographer": "Bich Tran",
-            "photographer_url": "https://www.pexels.com/@thngocbich",
-            "photographer_id": 195856,
+            "id": 1767014,
+            "width": 5472,
+            "height": 3648,
+            "url": "https://www.pexels.com/photo/rectangular-white-color-painting-palette-beside-eyeglasses-1767014/",
+            "photographer": "Craig Adderley",
+            "photographer_url": "https://www.pexels.com/@thatguycraig000",
+            "photographer_id": 657879,
             "src": {
-                "original": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg",
-                "large2x": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                "large": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-                "medium": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=350",
-                "small": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&h=130",
-                "portrait": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-                "landscape": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-                "tiny": "https://images.pexels.com/photos/636237/pexels-photo-636237.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+                "original": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg",
+                "large2x": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/1767014/pexels-photo-1767014.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 3607650,
+            "width": 4000,
+            "height": 6000,
+            "url": "https://www.pexels.com/photo/let-s-spend-the-night-together-text-on-glass-window-3607650/",
+            "photographer": "Ana-Maria Buică",
+            "photographer_url": "https://www.pexels.com/@ana-maria-buica-1825516",
+            "photographer_id": 1825516,
+            "src": {
+                "original": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg",
+                "large2x": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/3607650/pexels-photo-3607650.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
             },
             "liked": false
         }
     ]
+
 
 export const wantedPhotos = photos.filter(photo => {
   if (!deletedPhotos.includes(photo.id) && photo.width > photo.height) {
